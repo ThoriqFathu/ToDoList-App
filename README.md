@@ -14,10 +14,58 @@ Sebelum memulai, pastikan Anda sudah menginstal perangkat lunak berikut:
 
 ## Instalasi
 
+**Clone Repository:**
+Clone repository backend dari GitHub:
+`bash
+     git clone https://github.com/ThoriqFathu/ToDoList-App.git
+     `
+
 ### Backend (Laravel)
 
-1. **Clone Repository:**
-   Clone repository backend dari GitHub:
+**Set up backend:**
+
+````bash
+cd ToDoList-App
+cd backend
+composer install
+php artisan migrate
+
+     ```
+````
+
+### Frontend (Vue)
+
+**Set up forntend:**
+
+````bash
+cd ToDoList-App
+cd forntend
+npm install
+php artisan migrate
+
+     ```
+````
+
+## Running App
+
+1. **Menjalankan server Laravel (backend):**
+
      ```bash
-     git clone https://github.com/username/backend-repository-name.git
+     php artisan serve
+
+     ```
+
+2. **Menjalankan server Vue (frontend):**
+
+     ```bash
+     php artisan serve
+
+     ```
+
+## Testing App
+
+**Menjalankan testing di backend:**
+```bash
+php artisan test
+
      ```
