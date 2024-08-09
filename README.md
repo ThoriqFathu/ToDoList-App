@@ -14,34 +14,34 @@ Sebelum memulai, pastikan Anda sudah menginstal perangkat lunak berikut:
 
 ## Instalasi
 
-**Clone Repository:**
+-    **Clone Repository:**
 
-    ```bash
-    git clone https://github.com/ThoriqFathu/ToDoList-App.git
-    ```
+     ```bash
+     git clone https://github.com/ThoriqFathu/ToDoList-App.git
+     ```
 
 ### Backend (Laravel)
 
-**Set up backend:**
+-    **Set up backend:**
 
-    ```bash
-    cd ToDoList-App
-    cd backend
-    composer install
-    php artisan migrate
-    ```
+     ```bash
+     cd ToDoList-App
+     cd backend
+     composer install
+     php artisan migrate
+     ```
 
 ### Frontend (Vue)
 
-**Set up forntend:**
+-    **Set up forntend:**
 
-    ```bash
-    cd ToDoList-App
-    cd forntend
-    npm install
-    php artisan migrate
+     ```bash
+     cd ToDoList-App
+     cd forntend
+     npm install
+     php artisan migrate
 
-    ```
+     ```
 
 ## Running App
 
@@ -61,8 +61,13 @@ Sebelum memulai, pastikan Anda sudah menginstal perangkat lunak berikut:
 
 ## Testing App
 
-**Menjalankan testing di backend:**
+-    **Menjalankan testing di backend:**
 
-    ```bash
-    php artisan test
-    ```
+     ```bash
+     php artisan test
+
+     ```
+
+## Link Postman Dokumentasi API
+
+-    [DOK API](https://documenter.getpostman.com/view/37247580/2sA3s1pYFJ)
